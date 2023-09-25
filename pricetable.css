@@ -1,0 +1,175 @@
+.plan-compare {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+}
+
+h3 {
+    text-align: center;
+}
+.plan-compare p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.col-12 {
+    flex: 0 0 80%;
+    max-width: 80%;
+    margin: 0 25px;
+    background: #f4f3f3;
+}
+
+.row-0 {
+    display: flex !important;
+    gap: 0;
+    background: white;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row-1 {
+    display: flex !important;
+    gap: 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.row-2 {
+    display: flex !important;
+    gap: 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.row-3 {
+    display: flex !important;
+    gap: 0px;    
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.row-4 {
+    display: flex !important;
+    gap: 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgba(132, 131, 131,0.2);
+}
+.row-5 {
+    display: flex !important;
+    gap: 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgba(132, 131, 131,0.2);
+}
+.row-6 {
+    display: flex !important;
+    gap: 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.row-7 {
+    display: flex !important;
+    gap: 0px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.col-0 {
+    max-width: 23%;
+    flex: 0 0 23%;
+    padding-left: 5px;
+}
+
+.col-1 {
+    display: flex;
+    max-width: 15%;
+    flex: 0 0 15%;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 5px 0px #848383;
+    clip-path: inset(0px -15px 0px -15px);
+    margin: 0;
+    padding: 10px;
+    border-left: 0.1px solid rgba(132, 131, 131,0.2);
+    border-right: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.incol {
+    text-align: center;
+}
+
+.price {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+.col-2 {
+    display: flex;
+    max-width: 15%;
+    flex: 0 0 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    border-right: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.col-3 {
+    display: flex;
+    max-width: 15%;
+    flex: 0 0 15%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    border-right: 0.1px solid rgba(132, 131, 131,0.2);
+}
+
+.col-4 {
+    display: flex;
+    max-width: 15%;
+    flex: 0 0 15%;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    gap: 0;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background: black;
+    color: aliceblue;
+    cursor: pointer;
+}

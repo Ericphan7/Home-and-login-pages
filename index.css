@@ -1,0 +1,255 @@
+body {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    font-weight: 200;
+    min-width: fit-content;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 10px 15px 1px #0000001a;
+}
+
+.nav-button button {
+    height: 30px;
+    border-top: 0;
+    color: #793FDF;
+    border-left: 1px solid #793FDF;
+    border-right: 1px solid #793FDF;
+    border-bottom: 1px solid #793FDF;
+    border-radius: 0 0 5px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.nav-button .btn-primary{
+    background: linear-gradient(#793FDF, #854de6, #a381dd);
+    color: aliceblue;
+    margin-right: 15px;
+}
+
+.nav-button button:hover {
+    background: linear-gradient(#793FDF, #854de6, #a381dd);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.document {
+    position: relative;
+    min-width: 768px;
+    height: 350px;
+    text-align: center;
+    background: linear-gradient(#AED2FF, #E4F1FF);
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 15px 1px #0000001a;
+    overflow: hidden;
+}
+
+.demo {
+    position: relative;
+    width: 768px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.iphone-app-graph {
+    height: 30px;
+    left: 18px;
+    z-index: 2;
+    position: absolute;
+    bottom: -180px;
+}
+
+.ipad-app-calendar {
+    height: 30px;
+    left: 100px;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.ipad-app-menu {
+    height: 30px;
+    right: 0;
+    z-index: 2;
+    position: absolute;
+    bottom: -120px;
+}
+
+.mainTitle {
+    text-align: center;
+    max-width: 750px;
+    padding: 25px 0 25px 0;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #df7a3f;
+}
+.organize{
+    min-width: 768px;   
+    background: #E4F1FF; 
+    padding-top: 15px;
+}
+
+.organize .container{
+    background-color: rgba(255, 255, 255 ,0.7);
+    margin: 0 200px;
+    padding: 20px 20px 20px;
+}
+h2 {
+    color: #92a554;
+}
+footer{
+    background: linear-gradient(#a7bfe8,#6190e8);
+}
+
+.heading-footer {
+padding: 50px;
+
+}
+
+.body-footer {
+    color: #fbfbfb;
+    border-top: 6px solid #793FDF;
+    border-bottom: 3px solid #793FDF;
+    padding-top: 25px;
+}
+
+.body-footer ul{
+    columns: 2;
+    max-width: 750px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 25px;
+    list-style: none;
+}
+
+.body-footer ul li:before{
+    content: '\f058';
+    font-family: FontAwesome;
+    color: rgb(179, 179, 7);
+    padding-right: 5px;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+
+
+.end-footer {
+    text-align: center;
+    padding: 20px 0 ;
+    color: #fbfbfb;
+    border-top: 3px solid #793FDF;
+}
+
+#trial{
+    display: none;
+}
+
+.pop-up{
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    border-radius: 10px 10px 10px 10px;
+    background: #f8f8f8;
+    box-shadow: 0 0 5px 5px rgba(195, 191, 191, 0.75);
+    width: 700px;
+    min-height: 400px;
+    z-index: 9999;
+}
+
+.popupclose{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    background: #793FDF;
+    color: white;
+    font-weight: 400px;
+    padding-bottom: 4px;
+    box-shadow: 0 0 0 1px rgba(195,191,191,.75);
+}
+
+.popupcontent{
+    margin: 30px 15px 15px 15px;
+    height: 100%;
+}
+
+.popupcontent h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.popupcontent .checkmark{
+    margin: 0 auto;
+    width: 470px;
+}
+
+.checkmark li{
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 5px 0 0 45px;
+    position: relative;
+    font-weight: 400;
+}
+
+.checkmark li::before{
+    content: '\f058';
+    font-family: FontAwesome;
+    color: rgb(179, 179, 7);
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+.trialemail{
+    width: 510px;
+    min-width: 510px;
+    max-width: 530px;
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 16px;
+}
+
+.trialemail div{
+    float: left;
+    padding-right: 15px;
+    height: 40px;
+}
+
+.email-text{
+    line-height: 40px;
+    padding-right: 15px;
+    font-weight: 400;
+}
+
+.trialemail input{
+    height: 100%;
+    width: 280px;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.submit-trial{
+    border: 1px solid #793FDF;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 5px;
+    line-height: 38px;
+    height: 38px;
+    text-align: center;
+    background: linear-gradient(#793FDF, #854de6, #a381dd);
+    color: white;
+}

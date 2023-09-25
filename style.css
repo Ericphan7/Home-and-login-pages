@@ -1,0 +1,146 @@
+
+
+body{
+    /*background: linear-gradient(160deg,#716df2,#94a2f2,#a0b4f2,#bbd8f2,#888df2);*/
+    background: linear-gradient(160deg,#793FDF,#FFFD8C ,#97FFF4,#7091F5);
+    background-size: cover;    
+    animation: animate-gradient 18s ease infinite;
+    font-family: "Montserrat",sans-serif;
+}
+
+@keyframes animate-gradient{
+    0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+}
+
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login{
+    max-width: 400px;
+    background: rgba(181, 139, 139, 0.5);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.5);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.form-heading{
+    font-size: 40px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.label-text{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.form-input{
+    background: transparent;
+    width: 88%;
+    font-size: 25px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    color: rgb(250, 248, 248);
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+#eye{
+    display: none;
+}
+
+@media (max-width:500px){
+    #eye {
+        margin-left: 300px;
+        margin-top: -35px;
+        padding: 0;
+        cursor: pointer;
+    }
+}
+@media (max-width:395px) {
+    #eye {
+        margin-left: 260px;
+        margin-top: -35px;
+        padding: 0;
+        cursor: pointer;
+    }
+}
+@media (min-width:510px){
+    #eye {
+        margin-left: -30px;
+        margin-top: 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+}
+
+
+.form-group i{
+    position: absolute;
+    padding-top: 5px;
+    font-size: 30px;
+    padding-right: 10px;
+    color: white;
+}
+
+
+.form-submit{
+    background: linear-gradient(300deg,#716df2,#888df2,#94a2f2,#a0b4f2,#bbd8f2);
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.form-submit:hover{
+    border: 1px solid rgb(122, 122, 184);
+    animation: gradient-button 4s ease infinite;
+    filter: brightness(90%);
+}
+
+@keyframes gradient-button {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      transform: 0% 50%;
+    }
+  }
+
+.form-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: aqua;
+}

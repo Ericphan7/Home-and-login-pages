@@ -1,0 +1,145 @@
+
+.anywhere{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+.anywhere .textcontain{
+    order: 1;
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;    
+    padding-bottom: 20px;
+}
+
+.mobile .textcontain{
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.data-backup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;    
+    padding-bottom: 20px;
+}
+
+.data-backup .textcontain{
+    order: 1;
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.appoinment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+.appoinment .textcontain{
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.sales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+.sales .textcontain{
+    order: 1;
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.giftcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;    
+    padding-bottom: 20px;
+}
+
+.giftcards .textcontain{
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.email-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;    
+    padding-bottom: 20px;
+}
+
+.email-text .textcontain{
+    order: 1;
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.expenses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+.expenses .textcontain{
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.reporting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;    
+    padding-bottom: 20px;
+}
+
+.reporting .textcontain{
+    order: 1;
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.integration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+.integration .textcontain{
+    max-width: 60%;
+    flex: 0 0 60%;
+}
